@@ -1,0 +1,11 @@
+$textcolor : white;
+
+@mixin slider {
+    padding-top: 2px;
+    width: 60px;
+    height: 50px;
+    transition: width 2s;;
+    &:hover {
+        width: 240px;
+    }
+}
